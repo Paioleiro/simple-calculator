@@ -1,0 +1,13 @@
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Arial;background:#f4f7fb;display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+.calculator{width:320px;background:#222936;border-radius:12px;padding:16px;box-shadow:0 6px 20px rgba(16,24,40,0.15)}
+.display{height:96px;background:linear-gradient(180deg,#13151a,#0f1113);color:#fff;border-radius:8px;padding:12px;display:flex;flex-direction:column;justify-content:center;align-items:flex-end;word-wrap:break-word}
+.previous-operand{color:rgba(255,255,255,0.6);font-size:14px}
+.current-operand{font-size:32px;font-weight:600}
+.buttons{display:grid;grid-template-columns:repeat(4,1fr);grid-gap:10px;margin-top:12px}
+button{background:#2b3038;color:#fff;border:0;padding:18px;font-size:18px;border-radius:8px;cursor:pointer}
+button:hover{filter:brightness(1.06)}
+button[data-operation]{background:#ff9f1c}
+button[data-action]{background:#3a3f47}
+.span-2{grid-column:span 2}
+@media (max-width:360px){.calculator{width:92vw;padding:12px}.current-operand{font-size:28px}}

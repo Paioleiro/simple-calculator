@@ -1,6 +1,6 @@
 # Simple Web Calculator
 
-A small, responsive web calculator built with plain HTML, CSS, and JavaScript. Supports basic arithmetic (addition, subtraction, multiplication, division), decimal input, clear, delete, keyboard support, and a simple, responsive layout.
+A small, responsive web calculator built with plain HTML, CSS, and JavaScript. Supports basic arithmetic (addition, subtraction, multiplication, division), decimal input, clear and delete keys, keyboard support, and a simple, responsive layout.
 
 ## Files
 - index.html — UI and markup
